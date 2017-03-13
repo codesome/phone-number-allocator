@@ -1,0 +1,20 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodejs app.js",
+    "test": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "deasync": "^0.1.9",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "express": "~4.0.0",
+    "mongoose": "^4.8.7",
+    "morgan": "~1.0.0",
+    "static-favicon": "~1.0.0"
+  }
+}
