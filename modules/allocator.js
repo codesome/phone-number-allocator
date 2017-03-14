@@ -79,10 +79,10 @@ function getUnusedNumber(callback) {
         }
 
         if(num<=9999999999) {
-            // if pointer exceeded the limit
+            // valid number
             callback(true,num);
         } else {
-            // valid number
+            // if pointer exceeded the limit
             callback(false,0);
         }
 
